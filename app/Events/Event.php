@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace Mikacom\Events;
 
 abstract class Event
 {

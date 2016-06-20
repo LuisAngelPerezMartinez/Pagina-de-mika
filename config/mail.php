@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,7 +42,6 @@ return [
     */
 
     'port' => env('MAIL_PORT', 587),
-
     /*
     |--------------------------------------------------------------------------
     | Global "From" Address
@@ -54,7 +53,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'duvua8890@gmail.com', 'name' => 'angel perez'],
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +79,7 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+     'username' => env('duvua8890@gmail.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +92,7 @@ return [
     |
     */
 
-    'password' => env('MAIL_PASSWORD'),
+     'password' => env('angel.perez889015'),
 
     /*
     |--------------------------------------------------------------------------
@@ -119,6 +118,6 @@ return [
     |
     */
 
-    'pretend' => env('MAIL_PRETEND', false),
+    'pretend' => false,
 
 ];

@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: Mikacom
+        psr4_prefix: Mikacom
         src_path: app

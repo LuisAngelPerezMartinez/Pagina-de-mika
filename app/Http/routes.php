@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 
+Route::get('contacto','MailController@contacto');
+
+Route::get('mail','MailController');

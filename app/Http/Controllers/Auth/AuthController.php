@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Mikacom\Http\Controllers\Auth;
 
-use App\User;
+use Mikacom\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use Mikacom\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

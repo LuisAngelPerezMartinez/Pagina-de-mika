@@ -140,10 +140,10 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Mikacom\Providers\AppServiceProvider::class,
+        Mikacom\Providers\AuthServiceProvider::class,
+        Mikacom\Providers\EventServiceProvider::class,
+        Mikacom\Providers\RouteServiceProvider::class,
 
         /*
         *Laravel Collective
